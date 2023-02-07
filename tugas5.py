@@ -7,7 +7,7 @@ def index():
     return render_template('home.html')
 
 @application.route('/kontak-saya')
-def KontakSaya():
+def kontakSaya():
     return render_template('kontak-saya.html')
 
 @application.route('/tentang-saya')
